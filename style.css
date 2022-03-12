@@ -1,0 +1,272 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+.wrapper{
+    width: 1640px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 5px;
+    float: left;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    color: #ffffff;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #398AB9;
+    z-index: 1;
+    border-bottom: 5px solid #C65D7B;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.column{
+        margin-top: 100px;
+        margin-bottom: 300px;
+        margin-left: 20px;
+}
+
+.column .deskripsi {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'comic sans-ms';
+    color :#C65D7B;
+    
+    
+}
+
+.column .judul{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'comic sans-ms';
+    color :#398AB9;
+}
+
+h2{
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 10px;
+    color: #C65D7B;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #C65D7B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background:white;
+    text-decoration: none;
+    color:#398AB9;
+}
+
+a.tbl-hijau{
+    background: #C65D7B;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding: 5px 10px 5px 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+a.tbl-hijau:hover{
+    background: #398AB9;
+    text-decoration: none;
+    color: #C65D7B;
+
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+
+}
+
+.product-list{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column p{
+    font-weight: bold;
+}
+
+.foto-product{
+    width: 25%;
+    margin: 0 auto;
+
+}
+
+.foto-product img {
+   width: 95%;
+}
+ 
+.foto-product p {
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #398AB9;
+}
+
+.brand-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-brands{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-brands img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+#laporan {
+    background: #C65D7B;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #398AB9;
+    width: 150%;
+    line-height: 25px;
+
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper{
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .foto-product {
+        width: 50%;
+    }
+
+    .kartu-brands {
+        width: 50%;
+    }
+}
